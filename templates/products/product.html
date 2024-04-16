@@ -1,0 +1,14 @@
+<!-- Spesifier les donner exacte d un produit x -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<p>
+    {{pro.image}} 
+</p>
+
+<img style ='width: 100vh;' src="{{pro.image.url}}" alt="">
+
+
+{% endblock content %}

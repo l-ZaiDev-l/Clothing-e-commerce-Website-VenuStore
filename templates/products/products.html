@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for p in pro %}
+<h1>{{p.name}}</h1> <!--pour l fichage des photos necessite un parametrage du media-->
+<h1>{{p.content}}</h1> 
+<h1>{{p.price}}</h1> 
+{% endfor %}
+
+{% endblock content %}
